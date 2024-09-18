@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.available {
+    background-color: green;
+    cursor: pointer;
+}
+
+.unavailable {
+    background-color: red;
+    cursor: pointer;
+}
+
+.counts {
+    font-weight: bold;
+}
